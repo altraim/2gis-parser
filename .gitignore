@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Playwright specific
+**/playwright/.cache/
+**/playwright/test-results/
+**/playwright/.env
+
+# SQLite databases
+*.db
+*.sqlite
+*.db-journal
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Installer files
+*.msi
+*.exe
+
+# macOS
+.DS_Store
+
+# Test files
+*.pytest_cache
+.coverage
+htmlcov/
+
+# Playwright browsers
+**/browsers/
+
+# Local development files
+local_settings.py
+settings.ini
+
+# Docker
+docker-compose.override.yml
